@@ -5,7 +5,7 @@ print(data)
 data.columns
 
 data=data.drop(['INDEX', 'STD_YM', 'BLOCK_CD', 'SALE_AMT_00TMST', 'SALE_AMT_01TMST',
-       'SALE_AMT_02TMST', 'SALE_AMT_03TMST', 'SALE_AMT_04TMST',
+       'SALE_AMT_02TMST', 'SALE_cAMT_03TMST', 'SALE_AMT_04TMST',
        'SALE_AMT_05TMST', 'SALE_AMT_20TMST', 'SALE_AMT_21TMST',
        'SALE_AMT_22TMST', 'SALE_AMT_23TMST'],axis=1)
 
